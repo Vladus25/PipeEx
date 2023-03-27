@@ -11,6 +11,7 @@ import { PipeUserPipe } from './pipe/pipe-user.pipe';
 import { GenreFilterPipe } from './pipe/genre-filter.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { QuadratoDirective } from './directives/quadrato.directive';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     GallaryComponent,
     PipeUserPipe,
     GenreFilterPipe,
+    QuadratoDirective,
   ],
   imports: [
     BrowserModule,
